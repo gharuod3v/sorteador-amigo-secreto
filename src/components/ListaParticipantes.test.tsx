@@ -4,11 +4,11 @@ import { RecoilRoot } from 'recoil';
 import ListaParticipantes from './ListaParticipantes';
 import { useListaDeParticipantes } from '../state/hook/useListaDeParticipantes';
 
-jest.mock('../state/hook/useListaDeParticipantes', () => {
-  return {
-    useListaDeParticipantes: jest.fn()
-  }
-})
+// jest.mock('../state/hook/useListaDeParticipantes', () => {
+//   return {
+//     useListaDeParticipantes: jest.fn()
+//   }
+// })
 
 describe('uma lista vazia de participantes', () => {
   beforeEach(() => {
