@@ -2,14 +2,17 @@
 
 ## Teste unitário - Jest
 
-No diretório principal do projeto usar:
+### No diretório principal do projeto usar:
 
-### `npm i`
+
+
+`npm i`
 e
-### `npm start`
+`npm start`
 
-Para testes:
 
-### `npm test`
+### Para testes: 
+
+`npm test`
 
 
