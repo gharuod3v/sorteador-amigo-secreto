@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a pagina de configuracao deve ser renderizada corretamente 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <section>
+      <h2>
+        Vamos começar? (Min: 3 participantes)
+      </h2>
+      <form>
+        <div
+          class="inputButton"
+        >
+          <input
+            placeholder="Insira os nomes dos participantes"
+            type="text"
+            value=""
+          />
+          <button
+            disabled=""
+          >
+            Adicionar
+          </button>
+        </div>
+        
+      </form>
+      <ul />
+      <footer
+        class="footerConfig"
+      >
+        <div
+          class="divButton"
+        >
+          <button
+            class="StartButton"
+            disabled=""
+          >
+            Iniciar brincadeira!
+          </button>
+          <button
+            class="resetButton"
+          >
+            Resetar Lista
+          </button>
+        </div>
+        <div>
+          <img
+            alt="Sacolas de compras"
+            src="/imagens/sacolas.png"
+          />
+        </div>
+      </footer>
+    </section>
+  </div>
+</div>
+`;
